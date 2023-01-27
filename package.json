@@ -1,0 +1,21 @@
+{
+  "name": "reactboiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "copy": "cp ./src/index.html ./dist",
+    "build": "npm run copy && esbuild ./src/index.js --bundle --minify --sourcemap --loader:.js=jsx --outfile=./dist/bundle.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.5"
+  }
+}

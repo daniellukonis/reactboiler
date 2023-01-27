@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css", "../src/components/App.css"],
+  "sourcesContent": ["* {\n  margin: 0;\n  border: 0;\n  padding: 0;\n}\n\nbody {\n  background-color: gray;\n}", ".app-component {\n  margin: 1rem;\n  padding: 1rem;\n  background-color: black;\n  border: 2px solid white;\n  border-radius: 1rem;\n  font-family: monospace;\n  color: blueviolet;\n  text-align: center;\n}\n\n.app-component:hover {\n  background-color: chartreuse;\n}"],
+  "mappings": "AAAA,WAEE,SAFF,UAMA,KACE,sBCPF,wCAGE,sBACA,uBAJF,mBAME,sBACA,cACA,kBAGF,qBACE",
+  "names": []
+}
